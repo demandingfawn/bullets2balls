@@ -16,31 +16,21 @@ Brighan Schwind - ball and gun physics
 ### Tutorial:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(1).png)
 
-This is the entire turtorial scene
-
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(2).png)
-
-
 
 ### Bar:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown.png)
-
-This is the Bar with lighting on and off
 
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(3).png)
 
 ### Pool Table:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(4).png)
 
-The pool table with lights
-
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(5).png)
 
 
 ### City:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(6).png)
-
-The city outside the scenery 
 
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(7).png)
 
@@ -181,7 +171,7 @@ public class GunBehavior : MonoBehaviour
 }
 
 ```
-
+This code takes the volume from mic input and converts it to a power level. This power level is then shown on the gun by altering the meter colors based on how loud the volume is.
 ### Mic Input:
 ```
 using System.Collections;
@@ -353,9 +343,9 @@ public class MicInput : MonoBehaviour
     }
 }
 
+```
 The mic input does a few things. This records the microphone of a user and caculates the volume of the incoming audio. We then take the recorded volume and convert it into the power for the ball shot in the Gun Behavior script.
 
-```
 ### Destroy ball:
 ```
 using System.Collections;
@@ -395,8 +385,7 @@ public class Destroy : MonoBehaviour
     }
 }
 ```
-
-
+This code destroys the billard balls if they interact with the pocket. This is done by looking at the name of the ball. If it is 1-7 it is a solid, 9-15 is a stripe and 8 in the 8 ball. The pockets then send a score the the scoreboard. If the 8-ball hits a pocket, the scoreboard shows game over.
 
 ## Links for Models:
 
