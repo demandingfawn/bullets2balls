@@ -343,7 +343,7 @@ public class MicInput : MonoBehaviour
     }
 }
 
-
+The mic input does a few things. This records the microphone of a user and caculates the volume of the incoming audio. We then take the recorded volume and convert it into the power for the ball shot in the Gun Behavior script.
 
 ```
 ### Destroy ball:
