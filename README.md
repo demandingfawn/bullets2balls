@@ -16,21 +16,31 @@ Brighan Schwind - ball and gun physics
 ### Tutorial:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(1).png)
 
+This is the entire turtorial scene
+
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(2).png)
+
+
 
 ### Bar:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown.png)
+
+This is the Bar with lighting on and off
 
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(3).png)
 
 ### Pool Table:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(4).png)
 
+The pool table with lights
+
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(5).png)
 
 
 ### City:
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(6).png)
+
+The city outside the scenery 
 
 ![image1](https://github.com/demandingfawn/bullets2balls/blob/main/Images/unknown%20(7).png)
 
